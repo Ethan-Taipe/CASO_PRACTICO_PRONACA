@@ -1,0 +1,29 @@
+# =====================================================================
+# Dependencias del proyecto — Predicción del peso final de pollos
+# Versiones verificadas en la ejecución del cuaderno (semilla 42).
+# Instalación:  pip install -r requirements.txt
+# =====================================================================
+
+# --- Núcleo de datos y cálculo ---
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+
+# --- Modelado estadístico y machine learning ---
+scikit-learn==1.8.0
+statsmodels==0.14.6
+xgboost==3.2.0
+lightgbm==4.6.0
+
+# --- Visualización ---
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# --- Lectura de Excel y construcción/ejecución del notebook ---
+openpyxl==3.1.5
+nbformat==5.10.4
+
+# --- Ejecución del cuaderno (jupyter nbconvert --execute) ---
+jupyter
+nbconvert
+ipykernel

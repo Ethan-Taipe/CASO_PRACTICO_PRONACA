@@ -1,0 +1,12 @@
+,Tipo (dtype),N_nulos,%_nulos,N_unicos,Min,Max
+Consumo_Alimento_g_dia,float64,0,0.0,771,20.0,231.1
+Densidad_Aves_m2,float64,0,0.0,101,8.0,18.0
+Edad_Dias,int64,0,0.0,42,1.0,42.0
+Humedad_%,float64,0,0.0,376,45.0,85.0
+ID_Lote,int64,0,0.0,1000,1.0,1000.0
+Linea_Genetica,object,0,0.0,3,,
+Mortalidad_%,float64,0,0.0,406,0.0,6.48
+Peso_Final_g,float64,0,0.0,975,135.0,3596.3
+Peso_Inicial_g,float64,0,0.0,101,38.0,48.0
+Sexo,object,0,0.0,2,,
+Temperatura_C,float64,0,0.0,141,20.0,34.0

@@ -1,0 +1,15 @@
+{
+  "n_registros": 1000,
+  "n_variables": 11,
+  "mejor_modelo": "Lasso",
+  "rmse_test_g": 83.08,
+  "mae_test_g": 64.58,
+  "r2_test": 0.9921,
+  "mape_test_pct": 5.82,
+  "rmse_regresion_lineal_cv_g": 85.19,
+  "efecto_cobb_vs_arbor_g": 44.3,
+  "efecto_ross_vs_arbor_g": 25.2,
+  "efecto_macho_vs_hembra_g": 126.4,
+  "peso_faena_top_linea": "Cobb 500",
+  "r2_explicativo": 0.9864
+}
