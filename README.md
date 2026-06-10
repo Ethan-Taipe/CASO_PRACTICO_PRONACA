@@ -55,8 +55,8 @@ ejecutarse de forma interactiva con `jupyter notebook` o en VS Code.
 
 ```bash
 cd informe
-pdflatex informe_latex.txt      # primera pasada
-pdflatex informe_latex.txt      # segunda pasada (índice y referencias cruzadas)
+pdflatex informe_latex.tex      # primera pasada
+pdflatex informe_latex.tex      # segunda pasada (índice y referencias cruzadas)
 ```
 
 > El informe usa el paquete `babel` en español (estándar en cualquier distribución TeX
