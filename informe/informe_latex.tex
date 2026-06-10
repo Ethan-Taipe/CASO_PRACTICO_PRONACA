@@ -3,8 +3,10 @@
 %  Caso práctico de Ciencia de Datos aplicada a la avicultura (Ecuador)
 %
 %  Compilación recomendada (2 pasadas para índice y referencias cruzadas):
-%     pdflatex informe_latex.txt
-%     pdflatex informe_latex.txt
+%     pdflatex informe_latex.tex
+%     pdflatex informe_latex.tex
+%  O bien, en una sola orden (hace las pasadas automáticamente):
+%     latexmk -pdf informe_latex.tex
 %
 %  Requiere las figuras en la subcarpeta ./figuras/ (incluidas en el repo).
 % ===========================================================================
@@ -304,7 +306,7 @@ final.
 \label{sec:seleccion}
 
 \subsection{Control de fuga de información (\emph{data leakage})}
-Este es el punto metodológico más delicado del caso y donde se concentra el criterio \emph{senior}.
+Este es el punto metodológico más delicado del caso, tenemos que demostrar por que algunas variables constituyen data leakage.
 Variables como la \textbf{ganancia de peso}, la \textbf{ganancia diaria (GDP)} o el
 \textbf{índice de conversión alimenticia (FCR)} se derivan directamente del peso final. Usarlas como
 predictoras produciría un modelo con métricas espectaculares pero \textbf{inútil en producción}, porque

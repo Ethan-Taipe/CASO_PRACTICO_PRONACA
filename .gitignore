@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LaTeX build artifacts
+#   Archivos auxiliares de compilación; se regeneran en cada build (incluida la
+#   doble pasada necesaria para el índice y las referencias cruzadas).
+*.aux
+*.toc
+*.out
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
