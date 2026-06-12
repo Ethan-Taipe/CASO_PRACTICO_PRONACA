@@ -7,7 +7,8 @@ qué línea genética conviene, qué variables gobiernan el engorde, cuánto ali
 dónde está el dinero.
 
 Todo el trabajo es **reproducible** (semilla fija `random_state = 42`) y está desarrollado
-íntegramente en Python.
+íntegramente en Python. El dataset de origen (`data/Data_caso_practico.xlsx`) se incluye en el
+repositorio, de modo que el pipeline corre de extremo a extremo sin pasos manuales.
 
 ---
 
@@ -20,7 +21,7 @@ proyecto_pollos/
 ├── notebooks/
 │   └── PIPELINE_CASO_PRACTICO.ipynb         # Pipeline completo, ejecutado y verificado
 ├── informe/
-│   ├── informe_latex.txt                # Fuente LaTeX del informe técnico
+│   ├── informe_latex.tex                # Fuente LaTeX del informe técnico
 │   ├── informe_latex.pdf                # Informe compilado (15 págs.)
 │   └── figuras/                         # Figuras embebidas en el informe
 ├── outputs/
@@ -44,7 +45,7 @@ pip install -r requirements.txt
 
 ```bash
 cd notebooks
-jupyter nbconvert --to notebook --execute --inplace pipeline_pollos.ipynb
+jupyter nbconvert --to notebook --execute --inplace PIPELINE_CASO_PRACTICO.ipynb
 ```
 
 Esto vuelve a generar las 10 figuras en `outputs/figures/`, las tablas en `outputs/tablas/`
